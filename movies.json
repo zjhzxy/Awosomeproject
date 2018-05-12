@@ -54,7 +54,7 @@
             "directors": [
                 {
                     "alt": "https://movie.douban.com/celebrity/1018014/",
-                    "avatars": {
+                    "images": {
                         "small": "https://img3.doubanio.com/img/celebrity/small/4333.jpg",
                         "large": "https://img3.doubanio.com/img/celebrity/large/4333.jpg",
                         "medium": "https://img3.doubanio.com/img/celebrity/medium/4333.jpg"
@@ -363,7 +363,7 @@
             "casts": [
                 {
                     "alt": "https://movie.douban.com/celebrity/1040511/",
-                    "avatars": {
+                    "images": {
                         "small": "https://img3.doubanio.com/img/celebrity/small/1392653727.04.jpg",
                         "large": "https://img3.doubanio.com/img/celebrity/large/1392653727.04.jpg",
                         "medium": "https://img3.doubanio.com/img/celebrity/medium/1392653727.04.jpg"
@@ -373,7 +373,7 @@
                 },
                 {
                     "alt": "https://movie.douban.com/celebrity/1031217/",
-                    "avatars": {
+                    "images": {
                         "small": "https://img1.doubanio.com/img/celebrity/small/49827.jpg",
                         "large": "https://img1.doubanio.com/img/celebrity/large/49827.jpg",
                         "medium": "https://img1.doubanio.com/img/celebrity/medium/49827.jpg"
@@ -383,7 +383,7 @@
                 },
                 {
                     "alt": "https://movie.douban.com/celebrity/1041123/",
-                    "avatars": {
+                    "images": {
                         "small": "https://img3.doubanio.com/img/celebrity/small/1354381657.24.jpg",
                         "large": "https://img3.doubanio.com/img/celebrity/large/1354381657.24.jpg",
                         "medium": "https://img3.doubanio.com/img/celebrity/medium/1354381657.24.jpg"
@@ -421,7 +421,7 @@
             "images": {
                 "small": "https://img5.doubanio.com/view/movie_poster_cover/ipst/public/p2411622136.jpg",
                 "large": "https://img5.doubanio.com/view/movie_poster_cover/lpst/public/p2411622136.jpg",
-                "medium": "https://img5.doubanio.com/view/movie_poster_cover/spst/public/p2411622136.jpg"
+                "medium": "https://img3.doubanio.com/view/photo/l/public/p2411622136.webp"
             },
             "alt": "https://movie.douban.com/subject/26354572/",
             "id": "26354572"
@@ -898,7 +898,7 @@
             "images": {
                 "small": "https://img5.doubanio.com/view/movie_poster_cover/ipst/public/p2410569976.jpg",
                 "large": "https://img5.doubanio.com/view/movie_poster_cover/lpst/public/p2410569976.jpg",
-                "medium": "https://img5.doubanio.com/view/movie_poster_cover/spst/public/p2410569976.jpg"
+                "medium": "https://img3.doubanio.com/view/photo/l/public/p2410424120.webp"
             },
             "alt": "https://movie.douban.com/subject/3230115/",
             "id": "3230115"
@@ -1035,7 +1035,7 @@
             "images": {
                 "small": "https://img5.doubanio.com/view/movie_poster_cover/ipst/public/p2432597986.jpg",
                 "large": "https://img5.doubanio.com/view/movie_poster_cover/lpst/public/p2432597986.jpg",
-                "medium": "https://img5.doubanio.com/view/movie_poster_cover/spst/public/p2432597986.jpg"
+                "medium": "https://img3.doubanio.com/view/photo/l/public/p2432597986.webp"
             },
             "alt": "https://movie.douban.com/subject/11526817/",
             "id": "11526817"
