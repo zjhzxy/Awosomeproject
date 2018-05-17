@@ -3,40 +3,16 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
-import React, { Component } from 'react';
 import {
-  View,
-  StyleSheet,
-  FlatList,
-  } from 'react-native';
-import Item from './src/components/Item';
-import movies from './movies.json'
+  StackNavigator,
+} from 'react-navigation';
 
-const styles = StyleSheet.create({
-  row:{
-    paddingHorizontal:15,
-  },
+import List from './src/pages/List'
+import Detail from './src/pages/Detail'
+
+const App = StackNavigator({
+  List: {screen: List},
+  Detail: {screen: Detail},
 });
-type Props = {};
-export default class App extends Component<Props> {
-  render() {
-    return (
-      <View>
-        <FlatList
-          style={styles.row}
-          numColumns={3}
-          keyExtractor={item=>item.id}
-          data={movies.subjects}
-          renderItem={({item}) =>
-            <Item
-              title={item.title}
-              image={item.images.medium}
-              stars={item.rating.stars}
-            />}
-        />
-      </View>
-    );
-  }
-}
 
+export default App;

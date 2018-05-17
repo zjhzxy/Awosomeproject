@@ -11,6 +11,7 @@ import {
   Image,
   Text,
   Dimensions,
+  TouchableOpacity,
 } from 'react-native';
 
 const { width, height } = Dimensions.get('window');
@@ -39,8 +40,8 @@ const styles = StyleSheet.create({
     flexDirection:'row',
   },
   stars:{
-    width:15,
-    height:15,
+    width:10,
+    height:10,
   },
 });
 const renderStars = (stars) => {
@@ -95,9 +96,9 @@ const renderStars = (stars) => {
   );
 }
 const Item = (props) => {
-    const {title, image, stars} = props;
+    const {title, image, stars, onPress} = props;
     return (
-      <View style={styles.root} >
+      <TouchableOpacity style={styles.root} onPress={onPress}>
         <Image
           source={{uri:image}}
           style={styles.image}
@@ -109,7 +110,7 @@ const Item = (props) => {
           {title}
         </Text>
         {renderStars(stars)}
-      </View>
+      </TouchableOpacity>
     );
   };
 export default Item
